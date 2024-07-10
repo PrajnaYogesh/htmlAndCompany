@@ -1,0 +1,72 @@
+.companyContainer {
+    box-shadow: rgba(132, 26, 26, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;  
+    border-width: 0.2px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+      flex-wrap:wrap;
+      justify-content: center;
+      align-items: center;
+      background-image: url("https://amymhaddad.s3.amazonaws.com/morocco-blue.png");
+      height: 100%;
+      
+    }
+
+
+  
+  .company {
+    display: inline;
+    border-radius: 22px;
+    font-size:22px;
+    /* border: solid grey; */
+    margin: 30px;
+     width: 300px;
+    padding: 2px;
+        background-color: black;
+    color: white;
+    display: flex  ;
+    justify-content:center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;  
+
+}
+
+  
+  #com_a:hover {
+        background-color: lightblue;
+    border-radius: 70%;
+   color: rgb(208, 54, 56);
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;  
+
+  }
+  #com_b:hover {
+    color: rgb(218, 186, 154);
+    background-color: navy;
+    border-radius: 70%;
+  
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;  
+
+  }
+  #com_c:hover {
+    background-color: green;
+    border-radius: 70%;
+   color: rgb(207, 231, 58);
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;  
+
+  }
+  #com_d:hover {
+   
+    background-color: purple;
+    border-radius: 70%;
+   color: rgb(133, 182, 223);
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;  
+
+  }
+  .bizPic {
+    margin: 1em;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    border: solid 1px white;
+   
+
+  }
